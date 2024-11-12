@@ -13,7 +13,7 @@ data = pd.read_csv("traineddata.csv")
 
 data['IPS'].unique()
 
-st.title(" Siddhanath Tiwari AI GURU Laptop Price Predictor by ")
+st.title("Laptop Price Predictor")
 
 company = st.selectbox('Brand', data['Company'].unique())
 
